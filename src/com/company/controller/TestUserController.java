@@ -24,4 +24,19 @@ public class TestUserController extends Controller {
 			renderText("login failure.");
 		}
 	}
+	
+	public void reghtml() {
+		this.renderVelocity("register.html"); 
+	}
+	
+	public void register(){
+		//getModel(TestUser.class).save();
+		
+		
+		//if (user) {
+		//	renderText("register successful.");
+		//}else {
+		//	renderText("register failure.");
+		//}
+	}
 }
